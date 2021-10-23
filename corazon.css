@@ -1,0 +1,74 @@
+
+nav {
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    background-color: #fff;
+
+}
+@font-face {
+font-family: sans-serif;
+}
+.coraon {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0px 5px;
+    height: "initial";
+}
+.corazon img {
+    height: 30px;
+    background-color: #fff;
+    border-radius: 25px;
+
+}
+.login {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 25px;
+    box-shadow: 1px black;
+    height: 20px;
+}
+
+#header {
+    height: 120vh;
+    background-image: url('./annie-spratt-wgivdx9dBdQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.hero {
+    height: 109vh;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+}
+
+.brand_title {
+    font-size: 53px;
+}
+.brand_slogan {
+    font-size: 24px;
+}
+.brand_slogan. .brand_title {
+    padding-left: 20px;
+}
+a {
+    text-decoration: none;
+
+}
+nav {
+    padding-bottom: 15px;
+}
