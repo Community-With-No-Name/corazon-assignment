@@ -1,0 +1,63 @@
+.delll img {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    border-radius: 75px;
+    width: 20%;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 550px;
+    
+}
+.logo {
+    height: 150px;
+}
+.delll {
+    background-image: url(./corazon.jpg);
+    height: 100%;
+    color: aliceblue;
+}
+.check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    margin: 10px;
+
+}
+.checkout {
+    display: flex;
+    flex-direction:column;
+    margin: 20px;
+    font-family: calibri;
+    font: bolder;
+    color: ;
+
+}
+.btn{
+    outline: none;
+    width: 90%;
+    background-color: #000;
+    color: white;
+    border-radius: 25px;
+    border: 0px;
+    padding: 8px 0px;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: all .5s;
+    margin: 15px;
+    
+
+}
+.btn:hover {
+    background-color: white;
+    color: #000;
+    border: 1px solid #000;
+
+}
+.transition {
+    transition: all .5s;
+}
+.scale:hover {
+        transform: scale(1.1);

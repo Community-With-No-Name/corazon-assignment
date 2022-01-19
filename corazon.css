@@ -5,11 +5,9 @@ nav {
     justify-content: space-between;
     background-color: #fff;
 
+
 }
-@font-face {
-font-family: sans-serif;
-}
-.coraon {
+.corazon {
     font-size: 30px;
     font-weight: bolder;
     margin: 0px 5px;
@@ -19,6 +17,7 @@ font-family: sans-serif;
     height: 30px;
     background-color: #fff;
     border-radius: 25px;
+    
 
 }
 .login {
@@ -56,13 +55,14 @@ font-family: sans-serif;
 
 }
 
+
 .brand_title {
     font-size: 53px;
 }
 .brand_slogan {
     font-size: 24px;
 }
-.brand_slogan. .brand_title {
+.brand_slogan .brand_title {
     padding-left: 20px;
 }
 a {
@@ -72,3 +72,87 @@ a {
 nav {
     padding-bottom: 15px;
 }
+.text-center {
+    text-align: center;
+    border-radius: 40px solid black;
+    background-color: aliceblue;
+
+}
+.computers {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    margin: 10px;
+
+}
+.computer {
+    padding: 0px 10px;
+    background: white;
+    display: flex;
+    flex-direction: space-between;
+    
+}
+.computer img {
+    display: flex;
+    height: 300px;
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.transit:hover {
+    transform: scale(1.1);
+
+}
+
+
+.btn {
+    background-color: rgb(10, 8, 6);
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: all 0.5s;
+    width: 200px;
+
+}
+.btn:hover {
+    background-color: white;
+    color:black;
+    border: 3px solid black;
+    text-align: center;
+}
+.mango {
+    display: flex;
+    flex-direction: column;
+    margin-left: 95px;
+    margin-top: 36vh;
+    justify-content: flex-start;
+    
+}
+    .computer2 {
+    background: white;
+    display: flex;
+    flex-direction: space-between;
+    
+
+}
+.computer2 img {
+    display: flex;
+    height: 300px;
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+.product-detail {
+    background-color: whitesmoke;
+    font-family: Calibri;
+}
+
+
+
